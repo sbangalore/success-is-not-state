@@ -32,7 +32,7 @@ The delayed fault is synthetic. See the paper's Limitations.
 
 ## One difference from the hashed source
 `harness/silent_noop.py` differs from the file bound by the protocol lock in one code comment (the word naming the
-provider route). The code is unchanged, so `verify_frozen_protocol.py` reports a hash mismatch for that file only.
+provider route). The code is unchanged, so `verify_frozen_protocol.py` reports a hash mismatch for that file only; both hashes and the exact change are in `protocol/RELEASE_DELTA.md`.
 
 ## Licences
 Code (`analysis/`, `harness/`): MIT, see `LICENSE`. Data, protocol and review records: CC BY 4.0, see `LICENSE-DATA`.
