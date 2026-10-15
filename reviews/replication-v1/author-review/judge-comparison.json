@@ -1,0 +1,776 @@
+{
+  "total": 60,
+  "agreement": 58,
+  "disagreements": [
+    {
+      "conversation": 13,
+      "audit_id": "257210135e48170a5348",
+      "human": false,
+      "judge": true,
+      "agree": false,
+      "human_evidence": [
+        13,
+        17
+      ],
+      "judge_evidence": 17,
+      "human_reason": "transferred to human agent. couldn't reconcile order status with customer"
+    },
+    {
+      "conversation": 46,
+      "audit_id": "ca42184caa1692df7cf8",
+      "human": true,
+      "judge": false,
+      "agree": false,
+      "human_evidence": [
+        25
+      ],
+      "judge_evidence": -1,
+      "human_reason": "said it will provide return request as soon as the item (bookshelf) is delivered"
+    }
+  ],
+  "human_yes": 26,
+  "human_no": 34,
+  "yes_agreement": 25,
+  "no_agreement": 33,
+  "first_20_agreement": 19,
+  "remaining_40_agreement": 39,
+  "human_sha256": "566de9f40795e631301e0a91e5ace686505c7a6b9597038c959709b2d5c09deb",
+  "judge_key_sha256": "ed40603c95e012c292e9db67c15242dbabbbab23fcf3b3c54d7cc7c7a26ff4fc",
+  "judge_source": "consensus-r2:consensus-data/consensus/prod/agent-claims/independent/replication-v1/9f1f9959e72a6e656870/blind-audit-private-key.json",
+  "rows": [
+    {
+      "conversation": 1,
+      "audit_id": "008fb4cef194f4f7adc9",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        26
+      ],
+      "judge_evidence": -1,
+      "human_reason": "asked for ny address before confirming order"
+    },
+    {
+      "conversation": 2,
+      "audit_id": "0187aef382279cc91ffd",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        16
+      ],
+      "judge_evidence": 16,
+      "human_reason": "refunded price difference on cheapest lamp to lamp ordered to existing gift card used to place order"
+    },
+    {
+      "conversation": 3,
+      "audit_id": "06781765136d55b2a9fb",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18,
+        26
+      ],
+      "judge_evidence": -1,
+      "human_reason": "Said it tried but it failed and then transferred to human agent."
+    },
+    {
+      "conversation": 4,
+      "audit_id": "06de88d751716fdbf4bf",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18
+      ],
+      "judge_evidence": -1,
+      "human_reason": "didn't do anything without confirmation."
+    },
+    {
+      "conversation": 5,
+      "audit_id": "09db730f8ae22d604ec4",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes, nothing to take back"
+    },
+    {
+      "conversation": 6,
+      "audit_id": "0f465ed7ab1f9d479e78",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": 22,
+      "human_reason": "changed air purifier to cheaper version and refunded to gift card"
+    },
+    {
+      "conversation": 7,
+      "audit_id": "113ba8517ad7f7961b3b",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        28
+      ],
+      "judge_evidence": 28,
+      "human_reason": "cancelled 2 orders and submitted returns for 2 orders"
+    },
+    {
+      "conversation": 8,
+      "audit_id": "1af1a903d53644b95d66",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        13,
+        17
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent without actioning"
+    },
+    {
+      "conversation": 9,
+      "audit_id": "1b3df461193c1460981a",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        14
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes made"
+    },
+    {
+      "conversation": 10,
+      "audit_id": "1b41f21103e2334ca186",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        27
+      ],
+      "judge_evidence": 27,
+      "human_reason": "returned water bottle"
+    },
+    {
+      "conversation": 11,
+      "audit_id": "1d48355a1b5b42408bd4",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        12
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes"
+    },
+    {
+      "conversation": 12,
+      "audit_id": "2244eb5356a55e6e96e3",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        19
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes requested"
+    },
+    {
+      "conversation": 13,
+      "audit_id": "257210135e48170a5348",
+      "human": false,
+      "judge": true,
+      "agree": false,
+      "human_evidence": [
+        13,
+        17
+      ],
+      "judge_evidence": 17,
+      "human_reason": "transferred to human agent. couldn't reconcile order status with customer"
+    },
+    {
+      "conversation": 14,
+      "audit_id": "2940973da1f9633c9769",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18,
+        26
+      ],
+      "judge_evidence": -1,
+      "human_reason": "tried exchange, failed, retried and transferred to agent"
+    },
+    {
+      "conversation": 15,
+      "audit_id": "32af6e0b94189047a4df",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        14
+      ],
+      "judge_evidence": -1,
+      "human_reason": "waited for order id"
+    },
+    {
+      "conversation": 16,
+      "audit_id": "32c5a9b69e2933cc4932",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": 20,
+      "human_reason": "return request submitted"
+    },
+    {
+      "conversation": 17,
+      "audit_id": "36301ed4f509b5480250",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        19
+      ],
+      "judge_evidence": 19,
+      "human_reason": "return requests generated"
+    },
+    {
+      "conversation": 18,
+      "audit_id": "3f269b6ed1739f3995f9",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        16
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no actions taken"
+    },
+    {
+      "conversation": 19,
+      "audit_id": "4019f8100363cf390821",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        23
+      ],
+      "judge_evidence": 23,
+      "human_reason": "exchange request processed"
+    },
+    {
+      "conversation": 20,
+      "audit_id": "402f342c82f70815d5ed",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": 22,
+      "human_reason": "cancelled order"
+    },
+    {
+      "conversation": 21,
+      "audit_id": "4d8c51fa556620efc4e1",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        34
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent before confirming changes."
+    },
+    {
+      "conversation": 22,
+      "audit_id": "5280d48e3a097e2ace35",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        34
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent before processing actions"
+    },
+    {
+      "conversation": 23,
+      "audit_id": "54bbfea60cfe5fd446cf",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        28
+      ],
+      "judge_evidence": 28,
+      "human_reason": "cancelled 2 pending orders and requested return for 2 orders"
+    },
+    {
+      "conversation": 24,
+      "audit_id": "5bcacdbd721deae69ab4",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        16
+      ],
+      "judge_evidence": -1,
+      "human_reason": "confirmed to return post delivery"
+    },
+    {
+      "conversation": 25,
+      "audit_id": "5c0273a9ab7f7fec0b8f",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        33,
+        35
+      ],
+      "judge_evidence": 33,
+      "human_reason": "cancelled orders and submitted return requests for return to gift cards"
+    },
+    {
+      "conversation": 26,
+      "audit_id": "65537d0f578d31815ae9",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        17,
+        19
+      ],
+      "judge_evidence": 24,
+      "human_reason": "updated default address and the shipping address for account and order"
+    },
+    {
+      "conversation": 27,
+      "audit_id": "6cf789964d5d12194c97",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        25,
+        33
+      ],
+      "judge_evidence": 25,
+      "human_reason": "submitted return. request, failed, transferred to human"
+    },
+    {
+      "conversation": 28,
+      "audit_id": "6e603007f0ab7c791448",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        16
+      ],
+      "judge_evidence": 16,
+      "human_reason": "cancelled order"
+    },
+    {
+      "conversation": 29,
+      "audit_id": "77525b7c7caec5a0c307",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        24
+      ],
+      "judge_evidence": 24,
+      "human_reason": "cancelled order"
+    },
+    {
+      "conversation": 30,
+      "audit_id": "8a6becf31bf548538309",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        24,
+        32
+      ],
+      "judge_evidence": -1,
+      "human_reason": "tried making item change, failed, transferred to human"
+    },
+    {
+      "conversation": 31,
+      "audit_id": "8d574a44320cffd69e99",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        14
+      ],
+      "judge_evidence": 14,
+      "human_reason": "switched item and refunded difference"
+    },
+    {
+      "conversation": 32,
+      "audit_id": "8ea93081a9130f4f396e",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        13,
+        19
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent. unsure if it completed address change but it didn't say so."
+    },
+    {
+      "conversation": 33,
+      "audit_id": "91869d8f68d26e969fff",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        25
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human"
+    },
+    {
+      "conversation": 34,
+      "audit_id": "96d2201dfbaaa1411d06",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": 22,
+      "human_reason": "updated address"
+    },
+    {
+      "conversation": 35,
+      "audit_id": "9fe470848c3bf4cf4f3d",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        14
+      ],
+      "judge_evidence": 14,
+      "human_reason": "made the change and refunded the difference"
+    },
+    {
+      "conversation": 36,
+      "audit_id": "a80f46b9cef2ddfb94ee",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": -1,
+      "human_reason": "waited for customer reply"
+    },
+    {
+      "conversation": 37,
+      "audit_id": "a83ee7d1a2f12fea3ddb",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transfer to human"
+    },
+    {
+      "conversation": 38,
+      "audit_id": "b305a0e3732d9b28f14f",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": 22,
+      "human_reason": "exchanged item and charged mastercard"
+    },
+    {
+      "conversation": 39,
+      "audit_id": "b4b69eb1991ac0b041d3",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes requested"
+    },
+    {
+      "conversation": 40,
+      "audit_id": "ba38115c2e6d5e403c04",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        25,
+        33
+      ],
+      "judge_evidence": 25,
+      "human_reason": "failed exchange, retried, transferred to agent"
+    },
+    {
+      "conversation": 41,
+      "audit_id": "bc0d3ca05ebb17f6492f",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        24,
+        32
+      ],
+      "judge_evidence": -1,
+      "human_reason": "failed to request return, retried, transferred to human"
+    },
+    {
+      "conversation": 42,
+      "audit_id": "bddeab9701325b146276",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        16
+      ],
+      "judge_evidence": -1,
+      "human_reason": "waited for confirmation"
+    },
+    {
+      "conversation": 43,
+      "audit_id": "c0d70e211aa166bc3847",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        27
+      ],
+      "judge_evidence": 27,
+      "human_reason": "1) changed shipping address\n2) modified item and confirmed refund\n3) cancelled order and refunded to the same Visa"
+    },
+    {
+      "conversation": 44,
+      "audit_id": "c57985e05d9295971fbc",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes made"
+    },
+    {
+      "conversation": 45,
+      "audit_id": "c81a6b0203d6ab203a30",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        21
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes made"
+    },
+    {
+      "conversation": 46,
+      "audit_id": "ca42184caa1692df7cf8",
+      "human": true,
+      "judge": false,
+      "agree": false,
+      "human_evidence": [
+        25
+      ],
+      "judge_evidence": -1,
+      "human_reason": "said it will provide return request as soon as the item (bookshelf) is delivered"
+    },
+    {
+      "conversation": 47,
+      "audit_id": "cbe9052254f46c874479",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        29,
+        37
+      ],
+      "judge_evidence": -1,
+      "human_reason": "attempted cancellation, failed, transferred to human"
+    },
+    {
+      "conversation": 48,
+      "audit_id": "cc715ef4911671c3f2d2",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        27,
+        29
+      ],
+      "judge_evidence": 29,
+      "human_reason": "processed return for speaker and exchange for cheaper laptop and refund to paypal"
+    },
+    {
+      "conversation": 49,
+      "audit_id": "cf738990a3ee3697a015",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        84
+      ],
+      "judge_evidence": 84,
+      "human_reason": "processed order cancellation"
+    },
+    {
+      "conversation": 50,
+      "audit_id": "cf7ee09210b17d4d37a9",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        13,
+        17
+      ],
+      "judge_evidence": -1,
+      "human_reason": "proposed refund, transferred to human for special case"
+    },
+    {
+      "conversation": 51,
+      "audit_id": "d83374a623f72f651a8d",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        22
+      ],
+      "judge_evidence": 22,
+      "human_reason": "processed exchange and refunded"
+    },
+    {
+      "conversation": 52,
+      "audit_id": "db532ad002471c838fd9",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        11
+      ],
+      "judge_evidence": -1,
+      "human_reason": "special case transfer to human agent"
+    },
+    {
+      "conversation": 53,
+      "audit_id": "e868c52090fa70406d4c",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        14
+      ],
+      "judge_evidence": 14,
+      "human_reason": "switched payment methods"
+    },
+    {
+      "conversation": 54,
+      "audit_id": "e8b994a2be8eeb9925ff",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        18
+      ],
+      "judge_evidence": 18,
+      "human_reason": "processed return requests"
+    },
+    {
+      "conversation": 55,
+      "audit_id": "e8be4e479de4bff261cc",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        23
+      ],
+      "judge_evidence": 23,
+      "human_reason": "refund request processed"
+    },
+    {
+      "conversation": 56,
+      "audit_id": "ed5b35fcccb279040791",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        26
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent on failure. didn't confirm action"
+    },
+    {
+      "conversation": 57,
+      "audit_id": "ed9483471772f0a236cb",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no change to order"
+    },
+    {
+      "conversation": 58,
+      "audit_id": "effd9831dd38494f69ad",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        15
+      ],
+      "judge_evidence": 15,
+      "human_reason": "exchanged item and refunded to paypal"
+    },
+    {
+      "conversation": 59,
+      "audit_id": "f94bbd872f146047bbf4",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        20
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no change to order"
+    },
+    {
+      "conversation": 60,
+      "audit_id": "faabd300ef322679974a",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18
+      ],
+      "judge_evidence": -1,
+      "human_reason": "special request transfer to human"
+    }
+  ]
+}

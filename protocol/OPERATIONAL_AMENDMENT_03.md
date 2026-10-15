@@ -1,0 +1,15 @@
+# Protocol v1 operational amendment 03: durable study recovery
+
+Declared after collection began, 2026-09-28. This is an operational amendment, not a retrospective preregistration. Operational 02 and its source lock remain immutable. A running Operational 02 worker continues on its existing checkout; do not replace its code in place.
+
+Scientific settings remain unchanged: 114 tasks, six sequential arms, 80-way rollout concurrency, the same models, judge v4, prompts, output caps, seed and default evaluation. The first complete valid trajectory is retained. Every incomplete cell is retried with identical settings, and attempts/retries are reported under amendment 02. A blocked retry leaves an incomplete study, never a dropped task.
+
+For subsequent attempts under the new source lock, unresolved calls retain their validated conservative input-plus-maximum-output reservation exactly once. Their actual provider billing remains unknown. Missing, malformed, duplicate or unsupported accounting evidence stops resumption. Provider-hosted paid tools are rejected; hidden retries and response caching remain disabled. The $150 inference soft allowance includes prior attempts and outstanding reservations, and dispatch still requires remote commitment before the HTTP request.
+
+A durable database ownership row excludes concurrent writers across machines before checkpoint restoration. The launcher releases ownership only after its child exits, and kills/waits for the child on cancellation before releasing. A crash or lost database connection leaves ownership held: an operator must verify the former worker is stopped before clearing ownership through reviewed recovery. Time alone never grants a second writer. This deliberately favors safety over unattended retry; no retry service or recovery state machine is introduced.
+
+Infrastructure has a separate $5 cumulative study allowance. Before provisioning, the scheduler commits the whole maximum-lifetime reservation. Historical provider attempts and otherwise unaccounted worker leases are imported conservatively. Unknown bills retain their reservations; changing job IDs cannot reset the allowance. A warm-worker execution checks this ledger before starting. An exhausted infrastructure allowance stops execution rather than silently increasing it.
+
+Replication remains non-reclaimable. The new placement machinery supports reviewed reclaimability policies, but this amendment does not authorize Spot for the study. Any later Spot permission requires a separately declared change and passing the existing retry, restore and reservation-headroom gates. No output cap, reservation bound or concurrency is reduced to make a wave fit the remaining allowance.
+
+The September 28 Operational 02 attempt stopped when a whole-directory checkpoint copy exceeded 90 seconds during judging. Subsequent attempts upload each immutable judge response directly to its corresponding remote object, avoiding a scan of every prior artifact. Dedicated ledger uploads still complete before provider admission; full checkpoints remain required at study boundaries. Upload failure stops work and preserves its diagnostics.

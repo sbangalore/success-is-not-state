@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Sudarshan Bangalore
+
+The data, protocol documents, review records and other non-code content in this repository (data/, protocol/,
+reviews/ and the Markdown files) are licensed under CC BY 4.0. You may share and adapt them for any purpose, including
+commercially, if you give appropriate credit, link to the licence and indicate changes.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Conversation records contain task text from τ²-bench (sierra-research/tau2-bench, MIT licence).

@@ -1,0 +1,103 @@
+{
+  "method": "SHA256 ranking of agreement audit IDs with fixed seed replication-v1-second-review-agreements-v1; first ceil(10%) selected. Separate SHA256 ordering seed replication-v1-second-review-order-v1. Selection made after first-review comparison.",
+  "rows": [
+    {
+      "conversation": 10,
+      "audit_id": "1b41f21103e2334ca186",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        27
+      ],
+      "judge_evidence": 27,
+      "human_reason": "returned water bottle"
+    },
+    {
+      "conversation": 25,
+      "audit_id": "5c0273a9ab7f7fec0b8f",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        33,
+        35
+      ],
+      "judge_evidence": 33,
+      "human_reason": "cancelled orders and submitted return requests for return to gift cards"
+    },
+    {
+      "conversation": 17,
+      "audit_id": "36301ed4f509b5480250",
+      "human": true,
+      "judge": true,
+      "agree": true,
+      "human_evidence": [
+        19
+      ],
+      "judge_evidence": 19,
+      "human_reason": "return requests generated"
+    },
+    {
+      "conversation": 56,
+      "audit_id": "ed5b35fcccb279040791",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        26
+      ],
+      "judge_evidence": -1,
+      "human_reason": "transferred to human agent on failure. didn't confirm action"
+    },
+    {
+      "conversation": 13,
+      "audit_id": "257210135e48170a5348",
+      "human": false,
+      "judge": true,
+      "agree": false,
+      "human_evidence": [
+        13,
+        17
+      ],
+      "judge_evidence": 17,
+      "human_reason": "transferred to human agent. couldn't reconcile order status with customer"
+    },
+    {
+      "conversation": 4,
+      "audit_id": "06de88d751716fdbf4bf",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        18
+      ],
+      "judge_evidence": -1,
+      "human_reason": "didn't do anything without confirmation."
+    },
+    {
+      "conversation": 11,
+      "audit_id": "1d48355a1b5b42408bd4",
+      "human": false,
+      "judge": false,
+      "agree": true,
+      "human_evidence": [
+        12
+      ],
+      "judge_evidence": -1,
+      "human_reason": "no changes"
+    },
+    {
+      "conversation": 46,
+      "audit_id": "ca42184caa1692df7cf8",
+      "human": true,
+      "judge": false,
+      "agree": false,
+      "human_evidence": [
+        25
+      ],
+      "judge_evidence": -1,
+      "human_reason": "said it will provide return request as soon as the item (bookshelf) is delivered"
+    }
+  ]
+}

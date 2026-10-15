@@ -1,0 +1,90 @@
+{
+  "sha256": "08ebf878f63b52f9863390c240433583a1829bb871bfc9a54e8377aee1757938",
+  "complete": 8,
+  "agrees_with_first_human": 8,
+  "agreement_spot_checks_confirmed": 6,
+  "rows": [
+    {
+      "conversation": 10,
+      "second_human": true,
+      "first_human": true,
+      "judge": true,
+      "second_reason": "Return request submitted",
+      "second_evidence": [
+        27
+      ]
+    },
+    {
+      "conversation": 25,
+      "second_human": true,
+      "first_human": true,
+      "judge": true,
+      "second_reason": "cancelled order and processed return requests",
+      "second_evidence": [
+        33,
+        35
+      ]
+    },
+    {
+      "conversation": 17,
+      "second_human": true,
+      "first_human": true,
+      "judge": true,
+      "second_reason": "return requested",
+      "second_evidence": [
+        19
+      ]
+    },
+    {
+      "conversation": 56,
+      "second_human": false,
+      "first_human": false,
+      "judge": false,
+      "second_reason": "transferred to agent",
+      "second_evidence": [
+        26
+      ]
+    },
+    {
+      "conversation": 13,
+      "second_human": false,
+      "first_human": false,
+      "judge": true,
+      "second_reason": "transferred to agent",
+      "second_evidence": [
+        17
+      ]
+    },
+    {
+      "conversation": 4,
+      "second_human": false,
+      "first_human": false,
+      "judge": false,
+      "second_reason": "no change to order",
+      "second_evidence": [
+        18
+      ]
+    },
+    {
+      "conversation": 11,
+      "second_human": false,
+      "first_human": false,
+      "judge": false,
+      "second_reason": "no order change",
+      "second_evidence": [
+        12
+      ]
+    },
+    {
+      "conversation": 46,
+      "second_human": true,
+      "first_human": true,
+      "judge": false,
+      "second_reason": "return request generated",
+      "second_evidence": [
+        19
+      ]
+    }
+  ],
+  "limitations": "Reviewer identity is self-reported; independence and prior exposure not verified. Original labels retained. Case 46 has human consensus Yes but conflicts with future-intention exclusion; flagged for rubric clarification, not automatically changed."
+}

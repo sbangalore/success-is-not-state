@@ -1,0 +1,56 @@
+{
+  "budget_used_usd": 103.05143975000024,
+  "by_model_usd": {
+    "anthropic/claude-sonnet-4-5-20250929": 9.696101999999996,
+    "openai/gpt-4.1-2025-04-14": 8.607126000000022,
+    "openai/gpt-5": 84.74821175000018
+  },
+  "by_role_usd": {
+    "control:claim_judge": 0.8311440000000003,
+    "control:rollout_and_default_evaluation": 14.350221500000002,
+    "delayed:claim_judge": 0.7982879999999999,
+    "delayed:rollout_and_default_evaluation": 14.94552549999999,
+    "fault:claim_judge": 0.7760220000000002,
+    "fault:rollout_and_default_evaluation": 15.45622975,
+    "judge_regression_gate": 0.111195,
+    "verify_control:claim_judge": 0.8033099999999996,
+    "verify_control:rollout_and_default_evaluation": 15.466111499999995,
+    "verify_delayed:claim_judge": 0.8218439999999997,
+    "verify_delayed:rollout_and_default_evaluation": 16.196639749999992,
+    "verify_fault:claim_judge": 0.7841820000000003,
+    "verify_fault:rollout_and_default_evaluation": 21.71072674999998
+  },
+  "current_run_usd": 103.05143975000024,
+  "elapsed_seconds": 13934.676955509,
+  "inflight_reserved_usd": 0.0,
+  "known_estimated_cost_usd": 103.05143975000024,
+  "note": "Estimated costs, not invoices. Requests reserve uncached input and capped output before dispatch; unresolved calls retain the validated reservation and billing remains unknown.",
+  "peak_rss_mib": 3047.6953125,
+  "prior_runs_usd": 0,
+  "retries": {
+    "delayed": {
+      "retried_cells": [],
+      "retries": 0
+    },
+    "fault": {
+      "retried_cells": [],
+      "retries": 0
+    },
+    "verify_control": {
+      "retried_cells": [],
+      "retries": 0
+    },
+    "verify_delayed": {
+      "retried_cells": [],
+      "retries": 0
+    },
+    "verify_fault": {
+      "retried_cells": [],
+      "retries": 0
+    }
+  },
+  "soft_limit_usd": 150.0,
+  "total_usd": 103.05143975000024,
+  "unresolved_billing_status": "none",
+  "unresolved_reserved_usd": 0.0
+}

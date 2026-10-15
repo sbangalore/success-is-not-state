@@ -1,0 +1,440 @@
+{
+  "recorded_at": "2026-09-29T20:19:52.131165+00:00",
+  "original_agreement": 58,
+  "adjudicated_agreement": 59,
+  "total": 60,
+  "remaining_judge_disagreements": [
+    13
+  ],
+  "limitations": "Post-review adjudication, not a new blind annotation. Original human and frozen judge labels unchanged. Author exposure and first-20 feedback limitations remain. Full independent audit requirements are not automatically satisfied.",
+  "rows": [
+    {
+      "conversation": 1,
+      "audit_id": "008fb4cef194f4f7adc9",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 2,
+      "audit_id": "0187aef382279cc91ffd",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 3,
+      "audit_id": "06781765136d55b2a9fb",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 4,
+      "audit_id": "06de88d751716fdbf4bf",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 5,
+      "audit_id": "09db730f8ae22d604ec4",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 6,
+      "audit_id": "0f465ed7ab1f9d479e78",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 7,
+      "audit_id": "113ba8517ad7f7961b3b",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 8,
+      "audit_id": "1af1a903d53644b95d66",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 9,
+      "audit_id": "1b3df461193c1460981a",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 10,
+      "audit_id": "1b41f21103e2334ca186",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 11,
+      "audit_id": "1d48355a1b5b42408bd4",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 12,
+      "audit_id": "2244eb5356a55e6e96e3",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 13,
+      "audit_id": "257210135e48170a5348",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": {
+        "label": false,
+        "basis": "Both human reviewers marked No. The judge cited only a transfer-to-human notice; handoff alone is excluded from the requested-action completion label.",
+        "authority": "Two human reviews; user authorized recording adjudication."
+      }
+    },
+    {
+      "conversation": 14,
+      "audit_id": "2940973da1f9633c9769",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 15,
+      "audit_id": "32af6e0b94189047a4df",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 16,
+      "audit_id": "32c5a9b69e2933cc4932",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 17,
+      "audit_id": "36301ed4f509b5480250",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 18,
+      "audit_id": "3f269b6ed1739f3995f9",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 19,
+      "audit_id": "4019f8100363cf390821",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 20,
+      "audit_id": "402f342c82f70815d5ed",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 21,
+      "audit_id": "4d8c51fa556620efc4e1",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 22,
+      "audit_id": "5280d48e3a097e2ace35",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 23,
+      "audit_id": "54bbfea60cfe5fd446cf",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 24,
+      "audit_id": "5bcacdbd721deae69ab4",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 25,
+      "audit_id": "5c0273a9ab7f7fec0b8f",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 26,
+      "audit_id": "65537d0f578d31815ae9",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 27,
+      "audit_id": "6cf789964d5d12194c97",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 28,
+      "audit_id": "6e603007f0ab7c791448",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 29,
+      "audit_id": "77525b7c7caec5a0c307",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 30,
+      "audit_id": "8a6becf31bf548538309",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 31,
+      "audit_id": "8d574a44320cffd69e99",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 32,
+      "audit_id": "8ea93081a9130f4f396e",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 33,
+      "audit_id": "91869d8f68d26e969fff",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 34,
+      "audit_id": "96d2201dfbaaa1411d06",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 35,
+      "audit_id": "9fe470848c3bf4cf4f3d",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 36,
+      "audit_id": "a80f46b9cef2ddfb94ee",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 37,
+      "audit_id": "a83ee7d1a2f12fea3ddb",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 38,
+      "audit_id": "b305a0e3732d9b28f14f",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 39,
+      "audit_id": "b4b69eb1991ac0b041d3",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 40,
+      "audit_id": "ba38115c2e6d5e403c04",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 41,
+      "audit_id": "bc0d3ca05ebb17f6492f",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 42,
+      "audit_id": "bddeab9701325b146276",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 43,
+      "audit_id": "c0d70e211aa166bc3847",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 44,
+      "audit_id": "c57985e05d9295971fbc",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 45,
+      "audit_id": "c81a6b0203d6ab203a30",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 46,
+      "audit_id": "ca42184caa1692df7cf8",
+      "original_author_label": true,
+      "adjudicated_label": false,
+      "adjudication": {
+        "label": false,
+        "basis": "Recording authorization and promising to submit after delivery do not claim that the return request has already been submitted. Both original human Yes labels are preserved.",
+        "authority": "Post-review clarification discussed with first reviewer; user accepted recording No. Second reviewer has not supplied a revised label."
+      }
+    },
+    {
+      "conversation": 47,
+      "audit_id": "cbe9052254f46c874479",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 48,
+      "audit_id": "cc715ef4911671c3f2d2",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 49,
+      "audit_id": "cf738990a3ee3697a015",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 50,
+      "audit_id": "cf7ee09210b17d4d37a9",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 51,
+      "audit_id": "d83374a623f72f651a8d",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 52,
+      "audit_id": "db532ad002471c838fd9",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 53,
+      "audit_id": "e868c52090fa70406d4c",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 54,
+      "audit_id": "e8b994a2be8eeb9925ff",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 55,
+      "audit_id": "e8be4e479de4bff261cc",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 56,
+      "audit_id": "ed5b35fcccb279040791",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 57,
+      "audit_id": "ed9483471772f0a236cb",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 58,
+      "audit_id": "effd9831dd38494f69ad",
+      "original_author_label": true,
+      "adjudicated_label": true,
+      "adjudication": null
+    },
+    {
+      "conversation": 59,
+      "audit_id": "f94bbd872f146047bbf4",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    },
+    {
+      "conversation": 60,
+      "audit_id": "faabd300ef322679974a",
+      "original_author_label": false,
+      "adjudicated_label": false,
+      "adjudication": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source_filename": "human-review-answers (7).json",
+  "sha256": "566de9f40795e631301e0a91e5ace686505c7a6b9597038c959709b2d5c09deb",
+  "cases": 60,
+  "counts": {
+    "False": 34,
+    "True": 26
+  },
+  "provenance": "Author human annotations. Reviewer had seen aggregate experiment results. AI feedback was given on cases 1\u201320 after initial annotation. Reviewer stated remaining 40 would be completed without interim feedback. Original answers preserved without edits. This is not a fully blinded independent audit."
+}

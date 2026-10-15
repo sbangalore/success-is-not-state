@@ -1,0 +1,15 @@
+{
+  "tau_revision": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "models": {
+    "agent": "openai/gpt-5",
+    "user": "openai/gpt-4.1-2025-04-14",
+    "judge": "anthropic/claude-sonnet-4-5-20250929"
+  },
+  "sha256": {
+    "independent_run.py": "15121cf3316d06d6573e6c19074f23dd6df547215055ef4b8d01df39ad0f1be8",
+    "silent_noop.py": "b80b7c88e4dc2f184bc36e5a1011cdacb9e843bea5df428ccbf88fe8b028809b",
+    "recovery.py": "1e4fbdf3e4ba501820a3209d029cc73d408db89b44e41cdecdf0cf61f68f5336",
+    "replication_support.py": "0e9c1dc54b7db23f9e24a6d0c7868fa15abe5b5e9d607fc636c6c0cc57dd255f",
+    "study_identity.py": "e49613e5ad32dee73721265020788673849fced8bf01a272994f7ee4c9623dae"
+  }
+}

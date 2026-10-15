@@ -1,0 +1,113 @@
+completeness: 684 of 684 cells present; 0 without a completion label
+  control          termination: user_stop=114
+  fault            termination: user_stop=114
+  delayed          termination: user_stop=114
+  verify_control   termination: user_stop=114
+  verify_fault     termination: user_stop=114
+  verify_delayed   termination: user_stop=114
+
+=== Primary: all assigned tasks: 114 tasks
+arm                  C (claims)  reward     DB     NL  wrote  re-read  handoff  expired
+control            98/114 0.860   0.877  0.895  0.973     98     2/98      6       -
+fault             102/114 0.895   0.079  0.096  0.964    102    12/102    12       -
+delayed           102/114 0.895   0.719  0.719  1.000    102     4/102     4      24
+verify_control    100/114 0.877   0.833  0.833  0.982    102   101/102     9       -
+verify_fault        1/114 0.009   0.079  0.096  0.875    104   104/104   103       -
+verify_delayed    100/114 0.877   0.500  0.509  0.964    104   104/104    13      45
+paired contrasts, point [95% paired bootstrap], discordant pairs (a only, b only):
+  C      fault - verify_fault: +0.886 [+0.825, +0.939]  (101, 0; n=114)
+  reward fault - verify_fault: +0.000 [-0.026, +0.026]  (1, 1; n=114)
+  C      control - verify_control: -0.018 [-0.079, +0.044]  (5, 7; n=114)
+  reward control - verify_control: +0.044 [-0.035, +0.123]  (14, 9; n=114)
+  C      control - fault: -0.035 [-0.088, +0.018]  (3, 7; n=114)
+  reward control - fault: +0.798 [+0.719, +0.868]  (91, 0; n=114)
+  C      delayed - verify_delayed: +0.018 [-0.026, +0.070]  (5, 3; n=114)
+  reward delayed - verify_delayed: +0.219 [+0.123, +0.316]  (31, 6; n=114)
+  C      fault - delayed: +0.000 [-0.053, +0.053]  (4, 4; n=114)
+  reward fault - delayed: -0.640 [-0.728, -0.553]  (0, 73; n=114)
+
+=== Stricter measures (review follow-ups)
+read-back of the same order/user after each successful write: per write | tasks with every write read back
+  control             3/168  |   1/98
+  fault              30/185  |   4/102
+  delayed             3/178  |   0/102
+  verify_control    175/177  | 101/102
+  verify_fault      400/407  | 100/104
+  verify_delayed    176/176  | 104/104
+paired completion claims, control vs fault (both, control only, fault only, neither):
+  control vs fault: 95, 3, 7, 9
+  verify_control vs verify_fault: 1, 99, 0, 14
+  delayed vs verify_delayed: 97, 5, 3, 9
+claims against the final database (claim and DB correct / claim and DB wrong / no claim):
+  control           91 /   7 /  16
+  fault              3 /  99 /  12
+  delayed           71 /  31 /  12
+  verify_control    85 /  15 /  14
+  verify_fault       0 /   1 / 113
+  verify_delayed    50 /  50 /  14
+delayed fault: claims among tasks where a write actually expired (claims / expired tasks):
+  delayed           24/24
+  verify_delayed    41/45
+paired contrasts on false-claim proxies, point [95% paired bootstrap] (a only, b only):
+  claim_db_wrong     fault - control: +0.807 [+0.728, +0.877]  (92, 0)
+  claim_db_wrong     fault - verify_fault: +0.860 [+0.789, +0.921]  (98, 0)
+  claim_db_wrong     verify_delayed - delayed: +0.167 [+0.070, +0.263]  (27, 8)
+  claim_after_expiry verify_delayed - delayed: +0.149 [+0.070, +0.228]  (21, 4)
+  expired in both arms: 22 tasks; claims 22 without the instruction, 20 with it
+
+=== Sensitivity: development tasks 0-4 excluded: 109 tasks
+arm                  C (claims)  reward     DB     NL  wrote  re-read  handoff  expired
+control            93/109 0.853   0.872  0.890  0.972     93     2/93      6       -
+fault              97/109 0.890   0.083  0.101  0.963     97    12/97     12       -
+delayed            97/109 0.890   0.706  0.706  1.000     97     4/97      4      24
+verify_control     95/109 0.872   0.826  0.826  0.981     97    96/97      9       -
+verify_fault        1/109 0.009   0.083  0.101  0.869     99    99/99     98       -
+verify_delayed     95/109 0.872   0.486  0.495  0.963     99    99/99     13      44
+paired contrasts, point [95% paired bootstrap], discordant pairs (a only, b only):
+  C      fault - verify_fault: +0.881 [+0.817, +0.936]  (96, 0; n=109)
+  reward fault - verify_fault: +0.000 [-0.028, +0.028]  (1, 1; n=109)
+  C      control - verify_control: -0.018 [-0.083, +0.046]  (5, 7; n=109)
+  reward control - verify_control: +0.046 [-0.037, +0.128]  (14, 9; n=109)
+  C      control - fault: -0.037 [-0.092, +0.018]  (3, 7; n=109)
+  reward control - fault: +0.789 [+0.706, +0.862]  (86, 0; n=109)
+  C      delayed - verify_delayed: +0.018 [-0.028, +0.073]  (5, 3; n=109)
+  reward delayed - verify_delayed: +0.220 [+0.128, +0.321]  (30, 6; n=109)
+  C      fault - delayed: +0.000 [-0.055, +0.055]  (4, 4; n=109)
+  reward fault - delayed: -0.624 [-0.716, -0.532]  (0, 68; n=109)
+
+=== Sensitivity: tasks with a successful write in both fault and verify_fault (post-treatment): 101 tasks
+arm                  C (claims)  reward     DB     NL  wrote  re-read  handoff  expired
+control            95/101 0.941   0.871  0.891  0.970     95     2/95      1       -
+fault              98/101 0.970   0.000  0.010  0.970    101    12/101     8       -
+delayed            99/101 0.980   0.683  0.683  1.000     99     4/99      1      24
+verify_control     95/101 0.941   0.822  0.822  0.980     98    97/98      6       -
+verify_fault        1/101 0.010   0.000  0.010  0.870    101   101/101    97       -
+verify_delayed     95/101 0.941   0.455  0.465  0.960     99    99/99     11      45
+paired contrasts, point [95% paired bootstrap], discordant pairs (a only, b only):
+  C      fault - verify_fault: +0.960 [+0.921, +0.990]  (97, 0; n=101)
+  reward fault - verify_fault: +0.000 [+0.000, +0.000]  (0, 0; n=101)
+  C      control - verify_control: +0.000 [-0.059, +0.059]  (5, 5; n=101)
+  reward control - verify_control: +0.050 [-0.040, +0.139]  (13, 8; n=101)
+  C      control - fault: -0.030 [-0.079, +0.020]  (2, 5; n=101)
+  reward control - fault: +0.871 [+0.802, +0.931]  (88, 0; n=101)
+  C      delayed - verify_delayed: +0.040 [+0.000, +0.089]  (5, 1; n=101)
+  reward delayed - verify_delayed: +0.228 [+0.119, +0.337]  (29, 6; n=101)
+  C      fault - delayed: -0.010 [-0.050, +0.030]  (2, 3; n=101)
+  reward fault - delayed: -0.683 [-0.772, -0.594]  (0, 69; n=101)
+
+=== Clean replay (writes replayed into an unfaulted environment, tau2's native scoring)
+  control          clean DB 0.895   faulty-env DB 0.895
+  fault            clean DB 0.851   faulty-env DB 0.096
+  delayed          clean DB 0.868   faulty-env DB 0.719
+  verify_control   clean DB 0.833   faulty-env DB 0.833
+  verify_fault     clean DB 0.763   faulty-env DB 0.096
+  verify_delayed   clean DB 0.816   faulty-env DB 0.509
+  clean DB control - fault: +0.044 [-0.026, +0.114]  (11, 6)
+  clean DB control - verify_fault: +0.132 [+0.044, +0.219]  (21, 6)
+  clean DB control - delayed: +0.026 [-0.035, +0.096]  (9, 6)
+  fault: completion claimed, final database wrong, clean replay scores the DB as correct: 85/114
+  delayed: completion claimed, final database wrong, clean replay scores the DB as correct: 18/114
+
+spend: $103.05; by model anthropic/claude-sonnet-4-5-20250929 $9.70, openai/gpt-4.1-2025-04-14 $8.61, openai/gpt-5 $84.75
+agent openai/gpt-5, user openai/gpt-4.1-2025-04-14, judge anthropic/claude-sonnet-4-5-20250929 (v4), tau b7ea9074c1, seed 300, 114 tasks x 6 arms x 1 trial
+judge fixtures: 16/16 pass. Human review: 58/60 agree (59/60 adjudicated), see reviews/replication-v1/author-review/.
